@@ -1,24 +1,18 @@
 body {
-    background-color: #E97451;
-  }
-  
+  background-color: #E97451;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80%; /* Adjusted for better mobile experience */
+  text-align: center;
+  color: #4A0404;
+  margin-top: 15vh;
+  font-size: 4vw; /* Adjusted font size for responsiveness */
+}
+
+@media screen and (min-width: 768px) {
   .container {
-    /* display: block; */
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-    color: #4A0404;
-    margin-top: 15vh;
-    font-size: 3vw;
+      font-size: 24px; /* Reset font size for larger screens */
   }
-  
-  /* img {
-    margin: 0 auto;
-    width: 20%;
-    text-align: center;
-    color: #4A0404;
-    margin-top: 10%;
-    font-size: 4vw;
-    display: block;
-  }
-   */
+}
