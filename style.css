@@ -3,9 +3,9 @@ body {
   }
   
   .container {
-    display: block;
+    /* display: block; */
     margin: 0 auto;
-    width: 30%;
+    width: 50%;
     text-align: center;
     color: #4A0404;
     margin-top: 15vh;
